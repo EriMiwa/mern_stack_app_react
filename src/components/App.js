@@ -59,7 +59,6 @@ class App extends React.Component {
     })
       .then(response => response.json())
       .then(json => {
-        // 1. user the response to add it in the back of the array.
         let currentData = this.state.data;
         currentData.push(json);
         this.setState({

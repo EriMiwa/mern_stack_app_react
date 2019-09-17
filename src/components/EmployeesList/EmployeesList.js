@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table, Form } from 'react-bootstrap';
 import './EmployeesList.css';
-import Employee from '../employees/Employees'
+import Employee from '../Employee/Employee'
 
 const EmployeesList = (props) => {
 
